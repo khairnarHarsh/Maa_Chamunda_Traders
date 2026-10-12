@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="mr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>माँ चामुंडा ट्रेडर्स | सोलर बुकिंग</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            --bg: light-dark(#f7f4ed, #171915);
+            --card: light-dark(#fff, #23251f);
+            --ink: light-dark(#20251f, #f6f4ec);
+            --muted: light-dark(#62685f, #c0c5b9);
+            --green: light-dark(#1d6a45, #77d7a2);
+            --line: light-dark(#deded4, #41453d);
+            --gold: light-dark(#d99a22, #f2c15e)
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--ink);
+            font-family: "Noto Sans Devanagari", "Nirmala UI", Mangal, system-ui, sans-serif;
+            line-height: 1.55
+        }
+
+        .wrap {
+            max-width: 980px;
+            margin: auto;
+            padding: 20px
+        }
+
+        .hero {
+            background: linear-gradient(130deg, #174f36, #26734d);
+            color: white;
+            padding: 30px 24px;
+            border-radius: 22px
+        }
+
+        .brand {
+            font-size: clamp(26px, 5vw, 42px);
+            font-weight: 850;
+            margin: 0
+        }
+
+        .tag {
+            color: #e9f7ec;
+            margin: 8px 0 18px
+        }
+
+        .pill {
+            display: inline-block;
+            border: 1px solid #a8d8b7;
+            border-radius: 30px;
+            padding: 5px 12px;
+            font-size: 13px
+        }
+
+        .btn {
+            display: inline-block;
+            border: 0;
+            border-radius: 12px;
+            background: #16834f;
+            color: white;
+            font: inherit;
+            font-weight: 700;
+            padding: 12px 16px;
+            text-decoration: none;
+            cursor: pointer
+        }
+
+        .btn.secondary {
+            background: var(--gold);
+            color: #201b10
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 16px;
+            margin: 18px 0
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            padding: 20px
+        }
+
+        .card h2,
+        .card h3 {
+            margin-top: 0
+        }
+
+        .muted {
+            color: var(--muted)
+        }
+
+        label {
+            display: block;
+            font-weight: 650;
+            margin: 12px 0 5px
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            font: inherit;
+            color: var(--ink);
+            background: var(--bg);
+            border: 1px solid var(--line);
+            border-radius: 10px;
+            padding: 11px
+        }
+
+        textarea {
+            min-height: 78px
+        }
+
+        form .btn {
+            width: 100%;
+            margin-top: 16px
+        }
+
+        .prices {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 10px
+        }
+
+        .price {
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 12px
+        }
+
+        .price b {
+            display: block;
+            font-size: 20px;
+            color: var(--green)
+        }
+
+        .qr {
+            width: 180px;
+            max-width: 100%;
+            background: white;
+            padding: 8px;
+            border-radius: 12px
+        }
+
+        .foot {
+            text-align: center;
+            color: var(--muted);
+            font-size: 13px;
+            padding: 24px 0
+        }
+
+        .note {
+            font-size: 13px;
+            color: var(--muted)
+        }
+    </style>
+</head>
+
+<body>
+    <main class="wrap">
+        <header class="hero"><span class="pill">☀️ सोलर • इलेक्ट्रिकल • पंप सेवा</span>
+            <h1 class="brand">माँ चामुंडा ट्रेडर्स</h1>
+            <p class="tag">तुमच्या घरासाठी आणि व्यवसायासाठी सोलर सिस्टीमची माहिती व बुकिंग एका ठिकाणी.</p><a
+                class="btn secondary" href="#booking">सोलर बुकिंग फॉर्म भरा ↓</a>
+            <p style="margin-bottom:0">📍 New B.J. Market Basement, श्री राम मंदिराजवळ, जिल्हा पेठ, जळगाव, महाराष्ट्र –
+                425001</p>
+            <p style="margin-bottom:0">📞 7887913913</p>
+        </header>
+        <section class="grid">
+            <article class="card">
+                <h2>आमच्या सेवा</h2>
+                <ul>
+                    <li>सोलर ऑन-ग्रिड / ऑफ-ग्रिड</li>
+                    <li>हायब्रिड सोलर सिस्टीम</li>
+                    <li>सोलर वॉटर हीटर</li>
+                    <li>विंड टर्बाइन</li>
+                    <li>सबमर्सिबल पंप</li>
+                    <li>स्ट्रीट लाईट व इलेक्ट्रिकल कॉन्ट्रॅक्ट</li>
+                </ul>
+            </article>
+            <article class="card">
+                <h2>सोलर बुकिंगची प्रक्रिया</h2>
+                <ol>
+                    <li>खालील फॉर्ममध्ये माहिती भरा.</li>
+                    <li>मासिक लाईट बिल व आवश्यक kW निवडा.</li>
+                    <li>WhatsApp बटण दाबून माहिती पाठवा.</li>
+                </ol>
+                <p class="note">फॉर्ममधील माहिती WhatsApp संदेशात तयार होईल. पाठवण्यापूर्वी तपासून घ्या.</p>
+            </article>
+        </section>
+        <section class="card" id="booking">
+            <h2>ग्राहक सोलर बुकिंग फॉर्म</h2>
+            <p class="muted">कृपया माहिती मराठीत किंवा इंग्रजीत भरा.</p>
+            <form id="bookingForm"><label for="name">ग्राहकाचे पूर्ण नाव *</label><input id="name" required
+                    placeholder="उदा. राहुल पाटील"><label for="phone">मोबाईल नंबर *</label><input id="phone" type="tel"
+                    required pattern="[0-9 +()-]{10,}" placeholder="10 अंकी मोबाईल नंबर"><label for="bill">मासिक लाईट
+                    बिल (₹) *</label><input id="bill" type="number" min="0" required placeholder="उदा. 1800"><label
+                    for="kw">आवश्यक सोलर क्षमता *</label><select id="kw" required>
+                    <option value="">क्षमता निवडा</option>
+                    <option>1 kW</option>
+                    <option>2 kW</option>
+                    <option>3 kW</option>
+                    <option>3.5 kW</option>
+                    <option>4 kW</option>
+                    <option>5 kW</option>
+                    <option>माहिती हवी आहे</option>
+                </select><label for="type">सोलर प्रकार</label><select id="type">
+                    <option>माहिती हवी आहे</option>
+                    <option>On-grid</option>
+                    <option>Off-grid</option>
+                    <option>Hybrid</option>
+                </select><label for="district">जिल्हा / तालुका *</label><input id="district" required
+                    placeholder="उदा. जळगाव / जळगाव"><label for="address">पूर्ण पत्ता *</label><textarea id="address"
+                    required placeholder="गाव, परिसर, पिन कोड"></textarea><label for="extra">अतिरिक्त माहिती
+                    (ऐच्छिक)</label><textarea id="extra"
+                    placeholder="उदा. छताचा प्रकार किंवा योग्य वेळ"></textarea><button class="btn"
+                    type="submit">WhatsApp वर बुकिंग माहिती पाठवा</button></form>
+        </section>
+        <section class="grid">
+            <article class="card">
+                <h2>सोलर किंमत माहिती</h2>
+                <p class="note">खालील दर आधी दिलेल्या माहितीनुसार आहेत. प्रत्यक्ष किंमत व पात्रता कंपनी/योजनेनुसार
+                    तपासा.</p>
+                <div class="prices">
+                    <div class="price">3 kW<b>₹1,95,000</b></div>
+                    <div class="price">3.5 kW<b>₹2,00,000</b></div>
+                    <div class="price">4 kW<b>₹2,35,000</b></div>
+                    <div class="price">5 kW<b>₹3,00,000</b></div>
+                </div>
+            </article>
+            <article class="card" style="text-align:center">
+                <h2>WhatsApp QR कोड</h2><img class="qr" alt="WhatsApp वर संदेश पाठवण्यासाठी QR कोड"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyoAAAMqCAIAAADiqyKQAAAbiElEQVR4nO3du5IkK7YE0JvX6v9/uUc9wgxWdmh8O+RaesYLItINwfn8+fPn/wAASPn/6QsAAPgu4hcAQJT4BQAQJX4BAESJXwAAUeIXAECU+AUAECV+AQBEiV8AAFHiFwBAlPgFABAlfgEARIlfAABR4hcAQJT4BQAQJX4BAESJXwAAUeIXAECU+AUAECV+AQBEiV8AAFHiFwBAlPgFABAlfgEARIlfAABR4hcAQJT4BQAQJX4BAESJXwAAUeIXAECU+AUAECV+AQBEiV8AAFHiFwBAlPgFABAlfgEARIlfAABR4hcAQJT4BQAQ9TN14s/nM3XqQ/78+XPoyDvP6txVrRnff1o/jc4xWl/VuTk59aw6x2jt3DWfe3+nRr/zK3rjc/Zt/1usfgEARIlfAABR4hcAQJT4BQAQJX4BAESJXwAAUeIXAECU+AUAECV+AQBEfW5s3J4y1cg8deSpduPOVvS1zgb5Ne3V//Rej/85U89q58hrN37rdo6848b53HnNVr8AAKLELwCAKPELACBK/AIAiBK/AACixC8AgCjxCwAgSvwCAIgSvwAAon6mL+DfONdQ3NkUfGMn/ntXtbZz5J07eu9d6DzyuXbyzgb5nfOudd5v5/dqrbNffq1zTk6x+gUAECV+AQBEiV8AAFHiFwBAlPgFABAlfgEARIlfAABR4hcAQJT4BQAQdWXr/be5sX1+6sjnTHVbr3XOjbXO8T3n3Bh1jkLnd+PcO7jmHeR/sfoFABAlfgEARIlfAABR4hcAQJT4BQAQJX4BAESJXwAAUeIXAECU+AUAEKX1/gI3dsSfs9P1fK4n+sZO7c6nMTXbp57G1Ly6cSeG90a/87zf9p8yxeoXAECU+AUAECV+AQBEiV8AAFHiFwBAlPgFABAlfgEARIlfAABR4hcAQNSVrffvdfKe6yDu7BA/14u91tkRv6Ozu7zzvDuN6p0d4p3zaurdn/puvHfeczqvaorVLwCAKPELACBK/AIAiBK/AACixC8AgCjxCwAgSvwCAIgSvwAAosQvAICo0tb7c53anabanN/T2bi99t74Ts3nbzvvWuf9drrx3e/85tw4+lOsfgEARIlfAABR4hcAQJT4BQAQJX4BAESJXwAAUeIXAECU+AUAECV+AQBEjbXe39jl3em9nvdzv91x7rxTvec7v+3sap+azzvem1dTY+R+f//bHf67/xarXwAAUeIXAECU+AUAECV+AQBEiV8AAFHiFwBAlPgFABAlfgEARIlfAABRn6kG284+3x07T7LzaUw1UO/c0blnZU426PxefZvOedXZer9z5DXvwj/d2MVv9QsAIEr8AgCIEr8AAKLELwCAKPELACBK/AIAiBK/AACixC8AgCjxCwAg6mfqxOc6am9sv93xbffL7+20dXe2/N/YmX7j7hGdpnrtd36785Z1urHl/9xbtsPqFwBAlPgFABAlfgEARIlfAABR4hcAQJT4BQAQJX4BAESJXwAAUeIXAEDUp7N1t7Oj9sarWutskT5Hh3iDzvbqc+/R1MyZertvfMtu/BLeONs7fzvF6hcAQJT4BQAQJX4BAESJXwAAUeIXAECU+AUAECV+AQBEiV8AAFHiFwBA1M/0Bfx3U924a51t3WudTcGdT3LqaXSed62z5/3ck5z67Y1d3p2j8F6f/lrnd3JnFN7bd8TqFwBAlPgFABAlfgEARIlfAABR4hcAQJT4BQAQJX4BAESJXwAAUeIXAEDUp7OT95yptu7OlvDO7uPOMVrrHMHOXvsbvzlT8/m992jqfnd0XvN7LfCduzicY/ULACBK/AIAiBK/AACixC8AgCjxCwAgSvwCAIgSvwAAosQvAIAo8QsAIKq09b6zC/i9Buq1qWbzznbyc94b/XPsHvH7367dODfea0Xv/B/s/KebesvOsfoFABAlfgEARIlfAABR4hcAQJT4BQAQJX4BAESJXwAAUeIXAECU+AUAEDXWer/W2VH7Xjv5e+ftnBudDeOdo3Dj/U6d99xs77zfc+dd63wanfe748ZntcPqFwBAlPgFABAlfgEARIlfAABR4hcAQJT4BQAQJX4BAESJXwAAUeIXAEDUz/QF3GSqzflcB/G5puAb+4s7zzvlxlk39Zatr7nzSZ777Vrnc14feWp816ZG8NwbOvVlmOrEt/oFABAlfgEARIlfAABR4hcAQJT4BQAQJX4BAESJXwAAUeIXAECU+AUAEHVl631nS/i53uQb2347W5U7jzw1N9am2uenjjzVfD3VTf/ejN0x9b3aOXLnuzDVxb/WOeusfgEARIlfAABR4hcAQJT4BQAQJX4BAESJXwAAUeIXAECU+AUAECV+AQBE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">
+                <p class="muted">QR स्कॅन करून WhatsApp वर सोलर चौकशीचा संदेश उघडा.</p><a class="btn"
+                    href="https://wa.me/917887913913?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A4%BE%E0%A4%B0%2C%20%E0%A4%AE%E0%A4%B2%E0%A4%BE%20%E0%A4%B8%E0%A5%8B%E0%A4%B2%E0%A4%B0%20%E0%A4%B8%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A5%80%E0%A4%AE%20%E0%A4%AC%E0%A5%81%E0%A4%95%20%E0%A4%95%E0%A4%B0%E0%A4%BE%E0%A4%AF%E0%A4%9A%E0%A5%80%20%E0%A4%86%E0%A4%B9%E0%A5%87.%20%E0%A4%95%E0%A5%83%E0%A4%AA%E0%A4%AF%E0%A4%BE%20%E0%A4%AE%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%80%20%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE."
+                    target="_blank" rel="noopener">WhatsApp उघडा</a>
+            </article>
+        </section>
+        <footer class="foot">© माँ चामुंडा ट्रेडर्स • जळगाव.</footer>
+    </main>
+    <script>document.getElementById('bookingForm').addEventListener('submit', function (e) {
+            e.preventDefault(); const v = id => document.getElementById(id).value.trim(); const msg = `नमस्कार माँ चामुंडा ट्रेडर्स, मला सोलर सिस्टीमची माहिती/बुकिंग हवी आहे.
+
+ग्राहकाचे नाव: ${v('name')}
+मोबाईल: ${v('phone')}
+मासिक लाईट बिल: ₹${v('bill')}
+आवश्यक क्षमता: ${v('kw')}
+सोलर प्रकार: ${v('type')}
+जिल्हा/तालुका: ${v('district')}
+पत्ता: ${v('address')}
+अतिरिक्त माहिती: ${v('extra')}`; window.open('https://wa.me/917887913913?text=' + encodeURIComponent(msg), '_blank', 'noopener');
+        });</script>
+</body>
+
+</html>
